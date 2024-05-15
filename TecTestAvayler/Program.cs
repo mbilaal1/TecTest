@@ -6,13 +6,14 @@
         {
             Console.WriteLine("Enter a word to find its elemental forms:");
 
-            var results = Elements.ElementalForms(Console.ReadLine());
-
-            if (results.Length == 0)
+            var input = Console.ReadLine();
+            if (string.IsNullOrEmpty(input))
             {
                 Console.WriteLine("No valid elemental forms found.");
+                return;
             }
-            else
+
+            var results = Elements.ElementalForms(input);
             {
                 Console.WriteLine("Possible elemental forms:");
                 foreach (var result in results)
