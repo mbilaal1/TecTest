@@ -1,3 +1,6 @@
 # Exclude bin and obj directories
 **/bin/
 **/obj/
+
+# Ignore Visual Studio folder
+.vs/
