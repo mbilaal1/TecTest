@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.6.33712.159
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TecTestAvayler", "TecTestAvayler\TecTestAvayler.csproj", "{FE99A5EA-3453-4E7B-A832-18505009C218}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AvaylerTests", "AvaylerTests\AvaylerTests.csproj", "{C9A40BE8-9539-43D9-945B-28AAFAEBDE29}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{FE99A5EA-3453-4E7B-A832-18505009C218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FE99A5EA-3453-4E7B-A832-18505009C218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FE99A5EA-3453-4E7B-A832-18505009C218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FE99A5EA-3453-4E7B-A832-18505009C218}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9A40BE8-9539-43D9-945B-28AAFAEBDE29}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9A40BE8-9539-43D9-945B-28AAFAEBDE29}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9A40BE8-9539-43D9-945B-28AAFAEBDE29}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9A40BE8-9539-43D9-945B-28AAFAEBDE29}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {C1BAA98A-9DB8-4659-AFE3-FA3F0BD837D8}
+	EndGlobalSection
+EndGlobal
